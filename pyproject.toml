@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zao-bots"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Bozhko <voc.offacc@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+requests = "^2.31.0"
+vkbottle = "^4.3.12"
+aiogram = "2.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
